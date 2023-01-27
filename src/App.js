@@ -1,24 +1,27 @@
 import React from 'react'
-import { Routes,Route } from 'react-router-dom'
-import Edit from './Component/Edit'
-import Home from './Component/Home'
-import Student from './Component/Student'
-import About from './Component/About'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import About from './Component/About';
+import Edit from './Component/Edit';
+// import Forms from './Component/Forms';
+import Home from './Component/Home';
+import Student from './Component/Student';
+import Header from './HeadFoot/Header';
 
 
-
-const App = () => {
+function App (){
   return (
     <div>
-      <h1>Surya</h1>
-      {/* <BrowserRouter> */}
-        <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/student' element={<Student/>}/>
-          <Route path='/student/edit' element={<Edit/>}></Route>
-          <Route path='/about' element={<About/>}> </Route>
-        </Routes>
-      {/* </BrowserRouter> */}
+      
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/student" element={<Student />}/>
+      <Route path="/student/edit" element={<Edit />}/>
+      {/* <Route path="/student/forms" element={<Forms />}/> */}
+      <Route path="/about" element={<About />}/>
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }

@@ -1,16 +1,16 @@
-#header-flex {
+#header-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: brown;
+    background-color: blue;
     margin-bottom: 1rem;
 }
-.header-link {
+.header-link a{
     font-size: 2em;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
 }
-.header-link:hover {
-    background-color: aqua;
-    color: black;
+.header-link a:hover{
+    background-color: red;
+    color: darkblue;
 }
