@@ -1,0 +1,6 @@
+.nav {
+    justify-content: space-evenly;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+  }

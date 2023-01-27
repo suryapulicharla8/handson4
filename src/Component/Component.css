@@ -1,0 +1,36 @@
+#btn1 {
+    float: right;
+    border: 0px;
+    font-size: 1.5rem;
+    color: red;
+}
+#span1 {
+    font-size: 2rem;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid gray;
+    background-color:blue;
+    margin-top: 2rem;
+}
+.box {
+    width: 20%;
+    font-size: 1.5em;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid blue;
+    padding: 0.5rem;
+    background-color: skyblue;
+}
+.box1 {
+    width: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: darkblue;
+}
